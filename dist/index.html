@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EidMart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+  <!-- Header Part Start Here -->
+  <header>
+    <div class="absolute left-0 top-0 w-full z-20 border-b">
+      <div class="container mx-auto px-4 flex items-center">
+        <!-- LOGO -->
+        <a class="bg-lime-500 text-white font-bold text-3xl" href="#">
+          EidMart
+        </a>
+        <!-- NAVBAR -->
+        <nav class="items-center mx-auto">
+          <ul class="flex space-x-8">
+            <li class="group relative hover:active"><a
+                class="text-white font-medium capitalize lg:text-lg text-sm py-8 inline-block hover:text-lime-500 transition"
+                href="#">home</a><span class="text-lg ml-1 text-white"><i
+                  class="las la-angle-down"></i></span>
+              <ul
+                class="w-60 bg-white rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible hover:transition-all duration-300 mt-4 group-hover:mt-0 absolute left-0 top-full p-5 divide-y divide-gray-400">
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">home
+                    light</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">home
+                    dark</a></li>
+              </ul>
+            </li>
+            <li class="relative group"><a
+                class="text-white font-medium capitalize lg:text-lg text-sm py-8 inline-block hover:text-lime-500 transition"
+                href="#">pages</a><span class="text-lg ml-1 text-white"><i
+                  class="las la-angle-down"></i></span>
+              <ul
+                class="bg-white rounded-lg w-60 top-full absolute p-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible hover:transition-all duration-300 mt-4 group-hover:mt-0 left-0 divide-y divide-gray-400">
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Envato
+                    Product Affiliate</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Audio
+                    Filter</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Single
+                    Product</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Vendor
+                    Public Profile</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Single
+                    Public Profile</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition"
+                    href="#">Login</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition"
+                    href="#">Register</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Privacy
+                    Policy</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Term &
+                    Condition</a></li>
+              </ul>
+            </li>
+            <li><a
+                class="text-white font-medium capitalize lg:text-lg text-sm py-8 inline-block hover:text-lime-500 transition"
+                href="#">about us</a>
+            </li>
+            <li class="relative group"><a
+                class="text-white font-medium capitalize lg:text-lg text-sm py-8 inline-block hover:text-lime-500 transition"
+                href="#">blogs</a><span class="text-lg ml-1 text-white"><i class="las la-angle-down"></i></span>
+              <ul
+                class="w-60 bg-white rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible hover:transition-all duration-300 mt-4 group-hover:mt-0 absolute left-0 top-full p-5 divide-y divide-gray-400">
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">Blog
+                    Defult</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">blog
+                    light</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">blog
+                    dark</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">blog
+                    single</a></li>
+                <li class="py-3"><span class="text-lg mr-2 text-gray-400"><i class="las la-arrow-right"></i></span><a
+                    class="text-gray-600 font-medium capitalize text-sm hover:text-lime-500 transition" href="#">author
+                    profile</a></li>
+              </ul>
+            </li>
+            <li><a class="text-white font-medium capitalize lg:text-lg text-sm py-8 inline-block hover:text-lime-500 transition" href="#">about us</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- BUTTON -->
+        <div class="cart-add text-white relative cursor-pointer">
+          <span class="text-4xl"><i class="las la-shopping-cart"></i></span>
+          <sup
+            class="absolute right-0 text-sm bg-lime-500 rounded-full h-5 w-5 flex items-center justify-center">0</sup>
+        </div>
+        <button
+          class="text-white text-sm font-bold capitalize bg-lime-500 py-2 px-5 ml-10 rounded-full hover:bg-lime-600 ease-in-out duration-300"><span
+            class="text-xl mr-1"><i class="las la-user"></i></span>log in
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- Header Part End Here -->
+  <main>
+
+    <!-- Banner Part Start Here -->
+    <div style="background-image: url(./img/banner-1.jpg);" class="pt-64 pb-44 relative bg-cover bg-no-repeat bg-center">
+      <div class="absolute w-full h-full left-0 top-0 bg-black bg-opacity-30"></div>
+      <div class="text-center relative">
+        <h2 class="text-5xl text-white font-extrabold mb-12">Purchase Exclusive<span
+            class="text-yellow-400 ml-3">Sound.</span></h2>
+        <p class="text-2xl text-white mb-12">Exclusive audio library. Easy Download &licensing.</p>
+        <div class="search-box relative w-full max-w-2xl mx-auto mb-8">
+          <input type="text" placeholder="Search audio" class="w-full py-5 px-4 rounded-full focus:outline-none">
+          <button
+            class="text-white rounded-r-full font-bold capitalize bg-lime-500 py-6 px-5 absolute right-0 top-0 bottom-0 flex items-center"><span
+              class="text-xl"><i class="las la-search"></i></span>
+          </button>
+          <select class="outline-none bg-slate-50 py-5 px-4 absolute right-14 appearance-none cursor-pointer" name="" id="">
+            <span><i class="las la-angle-down"></i></span>
+            <option value="">All Categories</option>
+            <option value="">Country</option>
+            <option value="">Hip-hop</option>
+            <option value="">Indie Rock</option>
+            <option value="">Metal</option>
+            <option value="">Oldies</option>
+          </select>
+        </div>
+        <div class="count-content text-white mx-auto">
+          <span class="text-yellow-400 text-xl mr-2"><i class="las la-music"></i></span><span class="text-base mr-5">5k+
+            Audios</span>
+          <span class="text-yellow-400 text-xl mr-2"><i class="las la-users"></i></span><span class="text-base">50k+
+            Users</span>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Part End Here -->
+
+    <!-- Services Part Start Here -->
+    <section class="service-area bg-gray-200 py-24">
+      <div class="container px-7 mx-auto">
+        <div class="service-wrapper grid grid-cols-3 bg-white  rounded-md">
+          <div class="service-item px-7 py-9 border-r-2 border-gray-200">
+            <div class="service-head mb-5 flex items-center">
+              <h3 class="text-2xl text-neutral-800 font-bold"><span class="text-3xl text-black mr-4"><i
+                    class="las la-chart-line"></i></span>Popular Tracks</h3>
+            </div>
+            <div class="service-inner group flex items-center border-b cursor-pointer">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Architech - Architecture</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group cursor-pointer">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve – Digital Services</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Metal</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group cursor-pointer">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Bela – Multipurpose Mark</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group cursor-pointer">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Photto – Multi-vendor Ph</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Oldies</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group cursor-pointer">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Photoland – Photography</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Nicola Tesh <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="text-sm text-lime-500 font-medium border mt-10 px-4 py-3 rounded-3xl border-lime-500 hover:bg-lime-500 hover:text-white transition">View
+              More Audio</button>
+          </div>
+          <div class="service-item px-7 py-9 border-r-2 border-gray-200">
+            <div class="service-head mb-5 flex items-center">
+              <h3 class="text-2xl text-neutral-800 font-bold"><span class="text-3xl text-black mr-4"><i class="las la-sun"></i></span>Featured Tracks</h3>
+            </div>
+            <div class="service-inner group flex items-center border-b">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Bela – Multipurpose Mark</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">VideoMart | Video Streaming Wo
+                      </h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Metal</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Bela – Multipurpose Mark</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Listen | Audio Marketplace Dig</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Oldies</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">AudioMart – Audio Market</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Nicola Tesh <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="text-sm text-lime-500 font-medium border mt-10 px-4 py-3 rounded-3xl border-lime-500 hover:bg-lime-500 hover:text-white transition">View
+              More Audio</button>
+          </div>
+          <div class="service-item px-7 py-9 border-r-2 border-gray-200">
+            <div class="service-head mb-5 flex items-center">
+              <h3 class="text-2xl text-neutral-800 font-bold"><span class="text-3xl text-black mr-4"><i class="las la-calendar"></i></span>Latest Tracks</h3>
+            </div>
+            <div class="service-inner group flex items-center border-b">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve – Digital Services</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Listen | Audio Marketplace Dig
+                      </h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Metal</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Bela – Multipurpose Mark</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Photto – Multi-vendor Ph</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                          class="text-neutral-700">in</span> Oldies</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-inner flex items-center border-b group">
+              <div class="author-head w-full flex my-5">
+                <div
+                  class="service-icon bg-yellow-400 h-10 w-10 rounded-full flex shrink-0 items-center justify-center mr-4">
+                  <span class="text-white"><i class="las la-play"></i></span>
+                </div>
+                <div class="service-text w-full flex justify-between">
+                  <div class="author-name">
+                    <a href="#">
+                      <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Photoland – Photography</h4>
+                    </a>
+                    <div class="info text-xs">
+                      <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Nicola Tesh <span
+                          class="text-neutral-700">in</span> Country</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="text-sm text-lime-500 font-medium border mt-10 px-4 py-3 rounded-3xl border-lime-500 hover:bg-lime-500 hover:text-white transition">View
+              More Audio</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Part End Here -->
+
+    <!-- Album Area Start Here -->
+    <section class="album-area bg-indigo-100 py-20">
+      <div class="container px-10 mx-auto">
+        <div class="album-heading max-w-3xl text-center mx-auto">
+          <h2 class="text-3xl text-neutral-800 font-bold mb-7">New Various Artists Releases Album</h2>
+          <p class="text-base text-neutral-500">Our created library of royalty-free audio gives you the perfect feel of
+            the big production houses. Also, all of our tracks are 100% exclusive and copyright clear.</p>
+        </div>
+        <div class="album-inner">
+          <div class="album-title mt-16 border-b-2">
+            <ul class="flex justify-center space-x-10 capitalize font-bold text-gray-700 text-lg mb-5">
+              <li
+                class="hover:before:opacity-100 before:opacity-0 before:absolute before:h-0.5 before:w-full before:bg-red-500 before:top-12 before:block before:transition relative">
+                <a class="" href="#">all</a></li>
+              <li
+                class="hover:before:opacity-100 before:opacity-0 before:absolute before:h-0.5 before:w-full before:bg-red-500 before:top-12 before:block before:transition relative">
+                <a href="#">Country</a></li>
+              <li
+                class="hover:before:opacity-100 before:opacity-0 before:absolute before:h-0.5 before:w-full before:bg-red-500 before:top-12 before:block before:transition relative">
+                <a href="#">hip-hop</a></li>
+              <li
+                class="hover:before:opacity-100 before:opacity-0 before:absolute before:h-0.5 before:w-full before:bg-red-500 before:top-12 before:block before:transition relative">
+                <a href="#">indie rock</a></li>
+              <li
+                class="hover:before:opacity-100 before:opacity-0 before:absolute before:h-0.5 before:w-full before:bg-red-500 before:top-12 before:block before:transition relative">
+                <a href="#">metal</a></li>
+              <li
+                class="hover:before:opacity-100 before:opacity-0 before:absolute before:h-0.5 before:w-full before:bg-red-500 before:top-12 before:block before:transition relative">
+                <a href="#">oldies</a></li>
+            </ul>
+          </div>
+          <div class="album-count text-center mt-9">
+            <p class="text-lg text-gray-600">Total Items: 15</p>
+          </div>
+          <div class="album-content">
+            <div class="album-item grid gap-7 grid-cols-6">
+              <!-- single cart -->
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-1.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-2.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-3.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-4.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-5.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-6.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-6.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-5.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-4.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-3.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-2.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+              <div class="single-item group relative rounded-md overflow-hidden mt-9 cursor-pointer">
+                <img class="mb-4 rounded-md relative h-36 w-full" src="./img/product-1.jpg" alt="">
+                <span
+                  class="absolute top-0 left-0 text-yellow-400 bg-black text-3xl h-10 w-10 rounded-tl-md flex items-center justify-center"><i
+                    class="lab la-gitlab"></i></span>
+                <div
+                  class="discount-per text-white absolute top-0 right-0 flex items-center justify-center bg-red-500 rounded-full rounded-tr-md h-16 w-16">
+                  <span class="capitalize">21% <br> off</span>
+                </div>
+                <div class="album-text flex justify-between">
+                  <div class="author-name">
+                    <h4 class="text-sm text-neutral-600 font-bold group-hover:text-lime-500 transition mb-2">Serve –
+                      Digital Services</h4>
+                  </div>
+                  <div class="price">
+                    <del class="text-neutral-600 font-bold mr-2">$19</del><span
+                      class="text-yellow-400 font-bold">$15</span>
+                  </div>
+                </div>
+                <div class="info text-xs">
+                  <p class="text-neutral-500"> <span class="text-neutral-700">by</span> Eidmart <span
+                      class="text-neutral-700">in</span> Country</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-12">
+            <ul class="flex justify-center">
+              <li
+                class="h-10 w-10 bg-yellow-400 hover:bg-green-600 &:active transition-all text-white text-xl rounded-md flex items-center justify-center mr-3">
+                1</li>
+              <li
+                class="h-10 w-10 bg-yellow-400 hover:bg-green-600 transition-all text-white text-xl rounded-md flex items-center justify-center mr-3">
+                2</li>
+              <li
+                class="h-10 w-10 bg-yellow-400 hover:bg-green-600 transition-all text-white text-xl rounded-md flex items-center justify-center">
+                3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Album Area End Here -->
+
+    <!-- Artist Area Start Here -->
+    <section class="artist-area bg-white py-20">
+      <div class="container px-7 mx-auto">
+        <div class="artist-heading max-w-3xl text-center mx-auto">
+          <h2 class="text-3xl text-neutral-800 font-bold mb-7">Real Artist & Real Audio</h2>
+          <p class="text-base text-neutral-500">Without any hesitation use our trusted author product. We are 100%
+            copyright clear.</p>
+        </div>
+        <div class="artist-list mt-16">
+          <div class="artist-item flex justify-center space-x-24">
+            <div class="artist-item">
+              <a class="group" href="#">
+                <img class="h-24 w-24 rounded-full mb-4" src="./img/man-1.jpg" alt="">
+                <h4 class="text-sm capitalize text-neutral-600 font-bold group-hover:text-lime-500 transition">mickel alex</h4>
+              </a>
+            </div>
+            <div class="artist-item">
+              <a class="group" href="#">
+                <img class="h-24 w-24 rounded-full mb-4" src="./img/man-2.jpg" alt="">
+                <h4 class="text-sm capitalize text-neutral-600 font-bold group-hover:text-lime-500 transition">mickel alex</h4>
+              </a>
+            </div>
+            <div class="artist-item">
+              <a class="group" href="#">
+                <img class="h-24 w-24 rounded-full mb-4" src="./img/man-3.jpg" alt="">
+                <h4 class="text-sm capitalize text-neutral-600 font-bold group-hover:text-lime-500 transition">mickel alex</h4>
+              </a>
+            </div>
+            <div class="artist-item">
+              <a class="group" href="#">
+                <img class="h-24 w-24 rounded-full mb-4" src="./img/man-2.jpg" alt="">
+                <h4 class="text-sm capitalize text-neutral-600 font-bold group-hover:text-lime-500 transition">mickel alex</h4>
+              </a>
+            </div>
+            <div class="artist-item">
+              <a class="group" href="#">
+                <img class="h-24 w-24 rounded-full mb-4" src="./img/man-3.jpg" alt="">
+                <h4 class="text-sm capitalize text-neutral-600 font-bold group-hover:text-lime-500 transition">mickel alex</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Artist Area End Here -->
+
+    <!-- Audio Library Area Start Here -->
+    <section class="audio-lab-area pb-24">
+      <div class="container px-7 mx-auto">
+        <div class="audio-lab-content px-24 grid grid-cols-8 bg-indigo-100 rounded-md">
+          <div class="audio-lab-left col-span-4 py-32">
+            <div class="audio-lab-heading max-w-lg mx-auto">
+              <h2 class="text-3xl text-neutral-800 font-bold mb-7">Exclusive audio library.Easy licensing.</h2>
+              <p class="text-base text-neutral-500 mb-14 w-96">Our created library of royalty-free audio gives you the perfect feel of the big production houses. Also, all of our tracks are 100% exclusive and copyright.</p>
+              <button
+               class="text-white text-sm font-bold capitalize bg-lime-500 py-4 px-6
+                rounded-lg hover:bg-lime-600 ease-in-out duration-300">Get our audio 
+             </button>
+            </div>
+          </div>
+          <div class="audio-lab-right col-span-4 py-20">
+            <div class="grid grid-cols-2 text-center gap-7">
+              <div class="library-iem bg-white py-10 rounded-md group cursor-pointer">
+                <span class="text-7xl text-neutral-600 font-medium mb-4 block"><i class="las la-music"></i></span>
+                <h4 class="text-xl text-neutral-600 font-bold capitalize group-hover:text-lime-600 ease-in-out duration-300">incredible audio</h4>
+              </div>
+              <div class="library-iem bg-white py-10 rounded-md group cursor-pointer">
+                <span class="text-7xl text-neutral-600 font-medium mb-4 block"><i class="las la-dice-d20"></i></span>
+                <h4 class="text-xl text-neutral-600 font-bold capitalize group-hover:text-lime-600 ease-in-out duration-300">Simple Lisence</h4>
+              </div>
+              <div class="library-iem bg-white py-10 rounded-md group cursor-pointer">
+                <span class="text-7xl text-neutral-600 font-medium mb-4 block"><i class="las la-copyright"></i></span>
+                <h4 class="text-xl text-neutral-600 font-bold capitalize group-hover:text-lime-600 ease-in-out duration-300">Copyright Clear</h4>
+              </div>
+              <div class="library-iem bg-white py-10 rounded-md group cursor-pointer">
+                <span class="text-7xl text-neutral-600 font-medium mb-4 block"><i class="las la-comments-dollar"></i></span>
+                <h4 class="text-xl text-neutral-600 font-bold capitalize group-hover:text-lime-600 ease-in-out duration-300">Commercial Use</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Audio Library Area End Here -->
+
+  <!-- Discover Area Start Here -->
+  <section class="discover-area pb-24">
+    <div class="container mx-auto px-7">
+      <div class="bg-img py-52 bg-cover bg-center rounded-md relative overflow-hidden cursor-pointer" style="background-image: url(./img/banner-2.jpg);">
+        <div class="absolute bg-black inset-0 bg-opacity-50">
+          <div class="discover-content py-24 px-12 w-2/5">
+            <span class="text-5xl text-white  font-medium mb-4 block"><i class="las la-music"></i></span>
+            <h4 class="text-xl text-white font-bold mb-5">Very Simple licensing.</h4>
+            <p class="text-base text-white mb-6">Our created library of royalty-free images gives you
+              the perfect feel of the big production houses. Also, all of our
+              tracks are 100% exclusive and copyright clear.</p>
+            <button
+               class="text-white text-sm font-bold capitalize bg-yellow-500 py-4 px-10
+                rounded-3xl hover:text-black  hover:bg-white ease-in-out duration-300">Discover more
+             </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Discover Area End Here -->
+
+  <!-- Tutor Media Start Here -->
+  <section class="tutor-media bg-white pb-24">
+    <div class="container mx-auto px-10">
+      <div class="media-heading max-w-3xl text-center mx-auto pb-24">
+        <h2 class="text-3xl text-neutral-800 font-bold mb-7">Our Tutor Media</h2>
+        <p class="text-base text-neutral-500">Learn how to catch perfect audio for your professional business.</p>
+      </div>
+      <div class="media-product gap-1 grid grid-cols-3">
+        <div class="media-item col-start-1 col-end-3">
+          <div class="h-72 bg-cover bg-center rounded-md relative overflow-hidden cursor-pointer" style="background-image: url('./img/photo-1.jpg')">
+            <div class="absolute bg-black inset-0 bg-opacity-50 hover:bg-opacity-70 ease-in-out duration-300 flex items-center justify-center text-white text-2xl font-medium">
+              <div class="media-content text-center w-3/4">
+                <span class="text-3xl text-white  font-medium mb-5 block"><i class="las la-seedling"></i></span>
+                <h4 class="text-xl text-yellow-500 font-bold mb-4">Sell Photography Item Using Digital Marketplace</h4>
+                <p class="text-white capitalize text-sm"><b>eidmart</b> ~ 24 Jan, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="media-item">
+          <div class="h-72 bg-cover bg-center rounded-md relative overflow-hidden cursor-pointer" style="background-image: url('./img/photo-2.jpg')">
+            <div class="absolute bg-black inset-0 bg-opacity-50 hover:bg-opacity-70 ease-in-out duration-300 flex items-center justify-center text-white text-2xl font-medium">
+              <div class="media-content text-center w-3/4">
+                <span class="text-3xl text-white  font-medium mb-5 block"><i class="las la-seedling"></i></span>
+                <h4 class="text-xl text-yellow-500 font-bold mb-4">Make Your Digital Service Marketplace Using EDD</h4>
+                <p class="text-white capitalize text-sm"><b>eidmart</b> ~ 25 Jan, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="media-item">
+          <div class="h-72 bg-cover bg-center rounded-md relative overflow-hidden cursor-pointer" style="background-image: url('./img/photo-3.jpg')">
+            <div class="absolute bg-black inset-0 bg-opacity-50 hover:bg-opacity-70 ease-in-out duration-300 flex items-center justify-center text-white text-2xl font-medium">
+              <div class="media-content text-center w-3/4">
+                <span class="text-3xl text-white  font-medium mb-5 block"><i class="las la-seedling"></i></span>
+                <h4 class="text-xl text-yellow-500 font-bold mb-4">How to Sell Micro Services Using WordPress Theme</h4>
+                <p class="text-white capitalize text-sm"><b>eidmart</b> ~ 15 Jan, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="media-item">
+          <div class="h-72 bg-cover bg-center rounded-md relative overflow-hidden cursor-pointer" style="background-image: url('./img/photo-4.jpg')">
+            <div class="absolute bg-black inset-0 bg-opacity-50 hover:bg-opacity-70 ease-in-out duration-300 flex items-center justify-center text-white text-2xl font-medium">
+              <div class="media-content text-center w-3/4">
+                <span class="text-3xl text-white  font-medium mb-5 block"><i class="las la-seedling"></i></span>
+                <h4 class="text-xl text-yellow-500 font-bold mb-4">Digital Product Marketplace WordPress Theme</h4>
+                <p class="text-white capitalize text-sm"><b>eidmart</b> ~ 22 Jan, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="media-item">
+          <div class="h-72 bg-cover bg-center rounded-md relative overflow-hidden cursor-pointer" style="background-image: url('./img/photo-5.jpg')">
+            <div class="absolute bg-black inset-0 bg-opacity-50 hover:bg-opacity-70 ease-in-out duration-300 flex items-center justify-center text-white text-2xl font-medium">
+              <div class="media-content text-center w-3/4">
+                <span class="text-3xl text-white  font-medium mb-5 block"><i class="las la-seedling"></i></span>
+                <h4 class="text-xl text-yellow-500 font-bold mb-4">Sell Software Item Using WordPress Marketplace</h4>
+                <p class="text-white capitalize text-sm"><b>eidmart</b> ~ 12 Jan, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tutor Media End Here -->
+
+  <!-- Popular Button Area Start Here -->
+  <section class="popular-button-area pb-24">
+    <div class="container mx-auto px-7">
+      <div class="media-heading max-w-3xl text-center mx-auto pb-24">
+        <h2 class="text-3xl text-neutral-800 font-bold mb-7">Popular Searches</h2>
+        <p class="text-base text-neutral-500">Exclusive audio library. Easy Download &licensing.</p>
+      </div>
+      <div class="popular-content px-7">
+        <div class="popular-button text-xs">
+          <ul class="flex justify-center flex-wrap gap-y-8 gap-x-4">
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">audio</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">audioMart</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">digital</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Marketplace</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Software</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Listen</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Photography</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Photomart</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Product</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">WordPress</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Photoland</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Template</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Architech</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Streaming</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">VideoMart</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">ThemeForest</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Mart</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Multipurpose</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">VideoMart</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Architecture</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Videotube</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">Photo</a></li>
+            <li><a class="border py-2 px-8 rounded-full capitalize hover:text-lime-600 ease-in-out duration-300" href="#">MicroSolution</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Popular Button Area End Here -->
+
+  <!-- Purchase Area Start Here -->
+  <div class="purchase-area">
+    <div style="background-image: url(./img/banner-3.jpg);" class="h-60 relative bg-cover bg-no-repeat bg-center">
+      <div class="absolute w-full h-full left-0 top-0 bg-black bg-opacity-75">
+        <div class="container mx-auto px-7 h-60 flex justify-between items-center">
+          <div class="content-left text-white">
+            <h2 class="text-3xl text-white font-extrabold mb-6">Get all products for only $59!</h2>
+            <p class="text-lg text-white">Lifetime update and 6 months support.</p>
+          </div>
+          <div class="content-right">
+            <button
+               class="text-white text-sm font-normal capitalize bg-lime-500 py-5 px-8
+                rounded-lg hover:bg-lime-600 ease-in-out duration-300">purchase here
+             </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Purchase Area End Here -->
+
+  <!-- Footer Area Start Here -->
+  <section class="footer-area bg-black pt-20 pb-11">
+    <div class="container mx-auto px-7">
+      <div class="footer-top grid grid-cols-4 gap-16 border-b">
+        <div class="footer-item">
+          <div class="footer-logo mb-6">
+            <a class="bg-lime-500 text-white font-bold text-4xl" href="#">
+              EidMart
+            </a>
+          </div>
+          <div class="footer-text text-lime-500 font-bold mb-10">
+            <span class="text-base block">70k+ Downloads</span>
+            <span class="text-base block">147k+ Users</span>
+          </div>
+          <div class="footer-icon">
+            <ul class="flex">
+              <li class="mr-2"><a class="text-lg h-10 w-10 bg-blue-900 text-white rounded-full flex items-center justify-center" href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+              <li class="mr-2"><a class="text-lg h-10 w-10 bg-blue-400 rounded-full text-white flex items-center justify-center" href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+              <li class="mr-2"><a class="text-lg h-10 w-10 bg-blue-500 rounded-full text-white flex items-center justify-center" href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+              <li class="mr-2"><a class="text-lg h-10 w-10 bg-pink-500 rounded-full text-white flex items-center justify-center" href="#"><span><i class="fa-brands fa-dribbble"></i></span></a></li>
+              <li class="mr-2"><a class="text-lg h-10 w-10 bg-blue-700 rounded-full text-white flex items-center justify-center" href="#"><span><i class="fa-brands fa-behance"></i></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h4 class="text-white text-xl font-bold mb-9">We're Eidmart</h4>
+          <div class="footer-menu">
+            <ul>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">about us</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">get products</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">team member</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">our goals</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h4 class="text-white text-xl font-bold mb-9">Auxiliary</h4>
+          <div class="footer-menu">
+            <ul>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Frequently Asked Questions</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Knowledge Base Tutorial</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Newborn Article</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Customer Support</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Our Pricing Plan</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item mb-20">
+          <h4 class="text-white text-xl font-bold mb-9">Accessorial</h4>
+          <div class="footer-menu">
+            <ul>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Terms & Conditions</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Refund Policy</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Eidmart Sitemap</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Item Support Policy</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Licensing</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Get Offers</a></li>
+              <li><a class="text-slate-300 capitalize text-same hover:text-lime-600 ease-in-out duration-00 mb-4 block" href="#">Our Services</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom mt-10">
+        <div class="footer-content flex justify-between">
+          <div class="footer-copyright">
+            <p class="text-slate-300 capitalize text-same">© Copyright by <a class="text-lime-600 text-xl" href="#">ProgrammingKit</a></p>
+          </div>
+          <div class="payment-getway">
+            <img src="./img/cards-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Area End Here -->
+
+
+  </main>
+  <!-- Menu Area Start Here -->
+  <!-- Menu Area End Here -->
+</body>
+
+</html>
